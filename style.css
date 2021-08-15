@@ -1,0 +1,104 @@
+body{
+    background-size: 16in 9in;
+}
+
+#title{
+    margin-left: 50px;
+    font-size: 60px;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+    animation-name: change;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    color: rgb(253, 255, 207);
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-left: -40px;
+}
+    
+h1{
+      font-size: 4.2rem;
+}
+
+@keyframes change{
+    from{
+         box-shadow: 5px 5px 5px yellow;
+    }
+
+    to{
+         box-shadow: 5px 5px 5px blue;
+    }
+} 
+
+.bob{
+    padding: 15px;
+    margin: 20px;
+    width: 70%;
+    height: 350px;
+    background-color: yellow;
+    box-shadow: 5px 5px 5px cyan;
+    border-radius: 20px;
+    margin-left: -35px;
+}
+
+img{
+    border-radius: 20px;
+}
+
+.output{
+    background-color: white;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 20px;
+    float:left;
+    margin: 5px;
+    font-family: 'Barlow Condensed', sans-serif;
+
+}
+
+h5{
+    font-size: 20px;
+    margin: 5px;
+}
+
+.output b{
+    color: blue;
+    font-size: 20px;
+}
+  
+#op{
+    margin-left: 27px;
+}
+
+.result{
+    font-family: 'Barlow Condensed', sans-serif;
+    background-color: white;
+    width: 50%;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 15px;
+    margin-left: 310px;
+
+}
+
+.mini2{
+    font-family: 'Barlow Condensed', sans-serif;
+    background-color: white;
+    width: 100%;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 15px;
+    margin-left: -25px;
+}
+
+.mini2 h1{
+    color: orange;
+}
+
+.mini2 h2{
+    color: blue;
+}
